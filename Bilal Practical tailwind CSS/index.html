@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World’s Most Famous Scientists</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/daisyui@3.35.0/dist/full.js"></script>
+</head>
+<body class="font-sans bg-gray-100">
+
+<!-- Navigation -->
+<nav class="fixed top-0 w-full z-50 p-4 flex justify-between items-center bg-transparent">
+  <a href="index.html" class="text-2xl font-bold text-lime-500">World’s Most Famous Scientists</a>
+  <div class="space-x-6">
+    <a href="index.html" class="text-lime-500 font-bold">Home</a>
+    <a href="about.html" class="hover:text-blue-500">About</a>
+    <a href="scientists.html" class="hover:text-blue-500">Scientists</a>
+    <a href="contact.html" class="hover:text-blue-500">Contact</a>
+  </div>
+</nav>
+
+<!-- Carousel -->
+<div class="carousel w-full h-screen overflow-hidden mt-16 relative">
+
+  <!-- Slide 1 -->
+  <div id="slide1" class="carousel-item relative w-full h-full">
+    <img src="https://thumbs.dreamstime.com/b/close-up-depiction-laboratory-environment-featuring-lab-equipment-test-tubes-scientific-instruments-representing-research-340577550.jpg"
+         class="w-full h-full object-cover">
+    <div class="absolute inset-0 bg-black/40 flex flex-col justify-center items-center text-center px-4">
+      <h1 class="text-5xl font-bold text-lime-500">World’s Most Famous Scientists</h1>
+      <p class="text-xl mt-4 text-white">Explore the minds that changed the world</p>
+    </div>
+    <!-- Arrows -->
+    <a href="#slide4" class="absolute top-1/2 -translate-y-1/2 left-5 p-4 rounded-full bg-lime-500 text-white text-3xl shadow-lg hover:bg-lime-600 transition">❮</a>
+    <a href="#slide2" class="absolute top-1/2 -translate-y-1/2 right-5 p-4 rounded-full bg-lime-500 text-white text-3xl shadow-lg hover:bg-lime-600 transition">❯</a>
+  </div>
+
+  <!-- Slide 2 -->
+  <div id="slide2" class="carousel-item relative w-full h-full">
+    <img src="https://images.presentationgo.com/2025/07/female-scientist-laboratory.jpg"
+         class="w-full h-full object-cover">
+    <div class="absolute inset-0 bg-black/40 flex flex-col justify-center items-center text-center px-4">
+      <h1 class="text-5xl font-bold text-lime-500">Discover the Legends of Science</h1>
+      <p class="text-xl mt-4 text-white">From Newton to Curie</p>
+    </div>
+    <!-- Arrows -->
+    <a href="#slide1" class="absolute top-1/2 -translate-y-1/2 left-5 p-4 rounded-full bg-lime-500 text-white text-3xl shadow-lg hover:bg-lime-600 transition">❮</a>
+    <a href="#slide3" class="absolute top-1/2 -translate-y-1/2 right-5 p-4 rounded-full bg-lime-500 text-white text-3xl shadow-lg hover:bg-lime-600 transition">❯</a>
+  </div>
+
+  <!-- Slide 3 -->
+  <div id="slide3" class="carousel-item relative w-full h-full">
+    <img src="https://image.slidesdocs.com/responsive-images/background/light-mathematical-formula-powerpoint-background_10f6784a45__960_540.jpg"
+         class="w-full h-full object-cover">
+    <div class="absolute inset-0 bg-black/40 flex flex-col justify-center items-center text-center px-4">
+      <h1 class="text-5xl font-bold text-lime-500">Learn About Their Discoveries</h1>
+      <p class="text-xl mt-4 text-white">Physics, Chemistry, and beyond</p>
+    </div>
+    <!-- Arrows -->
+    <a href="#slide2" class="absolute top-1/2 -translate-y-1/2 left-5 p-4 rounded-full bg-lime-500 text-white text-3xl shadow-lg hover:bg-lime-600 transition">❮</a>
+    <a href="#slide4" class="absolute top-1/2 -translate-y-1/2 right-5 p-4 rounded-full bg-lime-500 text-white text-3xl shadow-lg hover:bg-lime-600 transition">❯</a>
+  </div>
+
+  <!-- Slide 4 -->
+  <div id="slide4" class="carousel-item relative w-full h-full">
+    <img src="https://wallpaperswide.com/download/amazing_space_2-wallpaper-3554x1999.jpg"
+         class="w-full h-full object-cover">
+    <div class="absolute inset-0 bg-black/40 flex flex-col justify-center items-center text-center px-4">
+      <h1 class="text-5xl font-bold text-lime-500">Explore the Universe of Knowledge</h1>
+      <p class="text-xl mt-4 text-white">Science never stops</p>
+    </div>
+    <!-- Arrows -->
+    <a href="#slide3" class="absolute top-1/2 -translate-y-1/2 left-5 p-4 rounded-full bg-lime-500 text-white text-3xl shadow-lg hover:bg-lime-600 transition">❮</a>
+    <a href="#slide1" class="absolute top-1/2 -translate-y-1/2 right-5 p-4 rounded-full bg-lime-500 text-white text-3xl shadow-lg hover:bg-lime-600 transition">❯</a>
+  </div>
+
+</div>
+
+</body>
+</html>
